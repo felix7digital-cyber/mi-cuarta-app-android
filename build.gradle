@@ -1,12 +1,5 @@
-android {
-    namespace 'com.felix.micuartaapp'
-    compileSdk 34
-
-    defaultConfig {
-        applicationId "com.felix.micuartaapp"
-        minSdk 24
-        targetSdk 34
-        versionCode 1
-        versionName "1.0"
-    }
+// Este archivo debe estar vacío o solo tener plugins, NO debe tener el bloque "android"
+plugins {
+    id 'com.android.application' version '8.2.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.0' apply false
 }
